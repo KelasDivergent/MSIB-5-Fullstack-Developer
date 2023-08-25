@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Kalkulator</title>
+    
+    <!-- Link Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Link Javascript -->
+    <script src="assets/javascript/script.js"></script>
+
+    <!-- Link Boostrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    
+</head>
+<body>
+<main>
+  <section class="kalkulator mt-5">
+    <div class="container">
+      <h1>Hitung Nilai Rata-rata</h1>
+      <form id="gradeForm">
+        <label class="nama" for="nama">Nama Mahasiswa:</label>
+        <input type="text" id="nama" required>
+        
+        <label class="matkul" for="matkul">Mata Kuliah:</label>
+        <input type="text" id="matkul" required>
+        
+        <label class="grade" for="grade">Grade:</label>
+        <select id="grade" required>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+        </select>
+        <div class="buttons">
+          <button class="rounded-5 w-50" type="button" id="hitungButton">Hitung</button>
+
+        </div>
+      </form>
+      
+      <table id="resultTable" class="hidden">
+        <thead>
+          <tr>
+            <th>Nama Mahasiswa</th>
+            <th>Mata Kuliah</th>
+            <th>Grade</th>
+            <th>Nilai Rata-rata</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+  
+ 
+<!-- Footer Start -->
+<footer class="" id="footer">
+  <div class="container">
+  </div>
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright Made With ♥
+      <a class="text-reset" href="/">Hasby Aiman</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer End -->
+    <!-- Link Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>
